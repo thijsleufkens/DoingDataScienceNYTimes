@@ -110,3 +110,13 @@ max(anonymousdata1$Clicks)
 ```
 
 As to be expected, no age and gender data exists for the anonymous users.
+
+To conclude let's plot some scatterplot matrices:
+
+```{r scatterplot, echo=FALSE}
+pairs(data1)
+```
+
+First impressions:
+This takes a long time to run!
+Age and Age_Group seem nicely correlated ;)
